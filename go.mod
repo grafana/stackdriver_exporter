@@ -1,6 +1,6 @@
 module github.com/prometheus-community/stackdriver_exporter
 
-go 1.19
+go 1.23.0
 
 require (
 	github.com/PuerkitoBio/rehttp v1.3.0
@@ -13,13 +13,13 @@ require (
 	github.com/prometheus/common v0.45.0
 	github.com/prometheus/exporter-toolkit v0.11.0
 	golang.org/x/net v0.19.0
-	golang.org/x/oauth2 v0.15.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.152.0
 )
 
 require (
 	cloud.google.com/go/compute v1.23.3 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
